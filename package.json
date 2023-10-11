@@ -1,8 +1,9 @@
 {
   "name": "sample-rollup-npm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register './test/**/*.test.ts'",
     "build": "tsc"
@@ -14,6 +15,10 @@
   "keywords": [
     "sample",
     "rollup"
+  ],
+  "files": [
+    "dist",
+    "test"
   ],
   "author": "siveing",
   "license": "MIT",
