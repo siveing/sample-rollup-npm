@@ -5,7 +5,7 @@ name: Sample Rollup Npm
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
